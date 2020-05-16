@@ -1,0 +1,26 @@
+
+<html align='left'>
+<meta http-equiv="Content-Type"content="text/html;charset=utf-8">
+<h1>Banner 报告</h1>
+    <body>
+    <h2>简述</h2>
+    <p>测试总数 :  {{all_test_count}}&nbsp;&nbsp;输出总数 :  {{len_domain_get}}&nbsp;&nbsp;开始时间 : {{start_time}}&nbsp;&nbsp;结束时间 : {{stop_time}} 使用时间 : {{use_time}}s  </p>
+    <h2>测试报告</h2>
+    <table border="1" width = "40%" cellspacing='0' cellpadding='0'>
+    <tr>
+        <th>域名</th>
+        <th>标题</th>
+        <th>响应体</th>
+        <th>页面</th>
+    </tr>
+    {% for item in body %}
+    <tr align='center'>
+        <td><a href="http://{{ item.domain}}" style="text-decoration:none;" target="_blank">{{ item.domain}}<a/></td>
+        <td>{{ item.title}}</td>
+        <td align="left">{{ item.headers_str }}</td>
+        <td><img src="{{ item.png_path }}" width="640" height="500"></td>
+    </tr>
+    {% endfor%}
+    </table>
+    </body>
+</html>
