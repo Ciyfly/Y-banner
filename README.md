@@ -12,7 +12,7 @@ selenium的驱动是在`config`目录下chromediver
 
 ## 测试
 报告截图  
-![report.png](https://i.loli.net/2020/05/16/UYi6xrNDdmK1L3y.png)  
+![report.png](https://github.com/Ciyfly/Y-banner/blob/master/report.png)  
 目前是测试基本版本 有bug欢迎来提 谢谢
 
 
