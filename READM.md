@@ -11,6 +11,8 @@ selenium的驱动是在`config`目录下chromediver
 建议使用 windows来测试使用 如果linux有那么高的内存当然也可以  
 
 ## 测试
+报告截图  
+![report.png](https://i.loli.net/2020/05/16/UYi6xrNDdmK1L3y.png)  
 目前是测试基本版本 有bug欢迎来提 谢谢
 
 
